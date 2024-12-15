@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>M & A Cosemtics Center</title>
+</head>
+<body>
+    <div class="banner">
+
+    </div>
+    <div class="about">
+
+        <h3>Welcome to M & A Cosemtics Center</h3>
+                   <p>Here Where you can find all womans needs you don't have to search for it all your needs in one place</p>
+                   <p style="margin-bottom: 30px;">Just tell us what product you are searching for just write the brand name , color code , whether you would like it original or high quality product</p>
+                   <a href="tel:01000008090">Contact us now</a>
+                   <a href="https://api.whatsapp.com/send?phone=201000008090">Whatsapp us now</a>
+       </div>
+    <div class="service">
+        <div>
+            <img src="images/2.jpg" alt="services">
+        </div>
+        <div class="responsive">
+            <h2>Make Custom outfit for you </h2>
+            <form onsubmit="validateForm(event)">
+                <label for="fname">First name :</label><br>
+                <input type="text" id="fname" name="fname"  required><br>
+                <label for="lname">Last name :</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                <label for="brand">Brand name :</label><br>
+                <input type="text" id="brand" name="brand" required><br>
+                <label for="code">Color code :</label><br>
+                <input type="text" id="code" name="code" required><br>
+                <label for="pname">Product name :</label><br>
+                <input type="text" id="pname" name="pname" required><br>
+                <label for="email">Your email :</label><br>
+                <input type="email" id="email" name="email"  required><br>
+                <label for="phone">Your mobile number :</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+  
+                <label for="style">Choose your Category :</label><br>
+                  <select id="style" name="style" required>
+                   <option value="Lipstick">Lipstick</option>
+                   <option value="Foundation">Foundation</option>
+                   <option value="Hair Cosemtics">Hair Cosemtics </option>
+                   <option value="concealer">Concealer</option>
+                   <option value="Eyeshadow">Eyeshadows</option>
+                   <option value="Mascara">Mascara</option>
+                  </select>
+              
+              
+              <br><br>
+              <input type="submit" value="Order Now" id="submit" >
+              </form>
+          
+        </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
